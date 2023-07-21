@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    background: url('https://4kwallpapers.com/images/wallpapers/outrun-neon-dark-background-purple-1920x1080-4523.jpg') center/cover no-repeat fixed;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .car-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .car-image {
+    width: 450px;
+    height: 380px;
+    border: 5px solid #ed61ff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .car-specs {
+    display: none;
+    background-color: #f9f9f9;
+    color: #000; /* Texto negro para las especificaciones de los carros */
+    width: 425px;
+    padding: 10px;
+    border: 5px solid #ed61ff;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #000000; /* Texto blanco para los títulos */
+  }
+  

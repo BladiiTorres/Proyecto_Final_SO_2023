@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Top Autos 2023</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<h1>Top Autos 2023</h1>
+<h5>{{env}}</h5>
+    <div class="container"> 
+        <div class="car-menu" onclick="showCar('Carro1')">
+            <img class="car-image" src="https://cdn.deagenciapa.com/wp-content/uploads/2023/07/El-nuevo-Kia-Picanto-1110x577.jpg" alt="Carro 1">
+            <div class="car-specs" id="Carro1">
+            <h2>Kia Picanto</h2>
+            <p>Version: Gt Line</p>
+            <p>Año: 2024</p>
+            </div>
+        </div>
+
+        <div class="car-menu" onclick="showCar('Carro2')">
+            <img class="car-image" src="https://img.remediosdigitales.com/133b83/nissan-versa-motor-turbo_3/450_1000.jpg" alt="Carro 2">
+            <div class="car-specs" id="Carro2">
+            <h2>Nissan Versa</h2>
+            <p>Version: Advance</p>
+            <p>Año: 2023</p>
+            </div>
+        </div>
+
+        <div class="car-menu" onclick="showCar('Carro3')">
+            <img class="car-image" src="https://i.ytimg.com/vi/l80LhmQU3Jc/maxresdefault.jpg" alt="Carro 3">
+            <div class="car-specs" id="Carro3">
+            <h2>Toyota Hilux</h2>
+            <p>Version: SR</p>
+            <p>Año: 2023</p>
+            </div>
+        </div>
+
+        <div class="car-menu" onclick="showCar('Carro4')">
+            <img class="car-image" src="https://netcarflix.sfo2.cdn.digitaloceanspaces.com/0000/v3/Dongfeng/63be8dbe889e2b818139cf00/2022-forthing-t5-evo-dongfeng-1y2r4eeeeej01rpvsw5xjbf.jpeg" alt="Carro 4">
+            <div class="car-specs" id="Carro4">
+            <h2>Dongfeng Forthing</h2>
+            <p>Version: T5 EVO</p>
+            <p>Año: 2023</p>
+            </div>
+        </div>
+
+        <div class="car-menu" onclick="showCar('Carro5')">
+            <img class="car-image" src="https://cdn.motor1.com/images/mgl/2NAmLM/s3/2024-hyundai-santa-fe.jpg" alt="Carro 5">
+            <div class="car-specs" id="Carro5">
+            <h2>Hyundai Santa Fe</h2>
+            <p>Version: Hybrid </p>
+            <p>Año: 2024</p>
+            </div>
+        </div>
+
+        <div class="car-menu" onclick="showCar('Carro6')">
+            <img class="car-image" src="https://carnetwork.s3.ap-southeast-1.amazonaws.com/file/9abd4de2fdfe4aa8aa7e35c4c16250a5.jpg" alt="Carro 6">
+            <div class="car-specs" id="Carro6">
+            <h2>Geely CoolRay</h2>
+            <p>Version: Sport SE</p>
+            <p>Año: 2023</p>
+            </div>
+        </div>
+    </div> 
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
